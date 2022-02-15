@@ -96,7 +96,8 @@
      <!-- Destination section -->
      <section class="destination">
         <video controls class="vid" id="vid">
-            <source src="./image/Destination_video.mp4">
+            <!-- <source src="./image/Destination_video.mp4" type="video/mp4"> -->
+            <source src="https://player.vimeo.com/external/402355911.sd.mp4?s=2a5439a2444685d1dd20c831e47a6fd223b60a36&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
         </video>
 
         <div class="vid_overlay">
@@ -559,11 +560,11 @@
             document.getElementById("header").style.boxShadow="none"
            }
 
-           if(window.pageXOffset>118){
-                document.getElementById("vid").play;
-           }
-           else{
-            document.getElementById("vid").pause;
+        //    if(window.pageXOffset>118){
+        //         document.getElementById("vid").play;
+        //    }
+        //    else{
+        //     document.getElementById("vid").pause;
            }
        }
    </script>

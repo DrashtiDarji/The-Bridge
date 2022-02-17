@@ -38,8 +38,29 @@
 
     <!-- banner -->
     <section class="banner">
+        <div class="banner_header">
+            <P>Get ready for </P>
+        </div>
         <div class="banner_container">
             
+            <div class="slider">
+                <div class="slider_child">
+                    <p>Adventure</p>
+                </div>
+                <div class="slider_child">
+                    <p>Connect</p>
+                </div>
+                <div class="slider_child">
+                    <p>Experience</p>
+                </div>
+                <div class="slider_child">
+                    <p>Fun</p>
+                </div>
+                <div class="slider_child">
+                    <p>Memory</p>
+                </div>
+
+            </div>
             
 
         </div>
@@ -94,15 +115,15 @@
     </section>
 
      <!-- Destination section -->
-     <section class="destination">
-        <video controls class="vid" id="vid">
-            <!-- <source src="./image/Destination_video.mp4" type="video/mp4"> -->
-            <source src="https://player.vimeo.com/external/402355911.sd.mp4?s=2a5439a2444685d1dd20c831e47a6fd223b60a36&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
+    <section class="destination">
+        <video class="vid" width="100%" controls>
+            <source src="./image/video_MYMgTsoV.mp4" type="video/mp4">
         </video>
-
         <div class="vid_overlay">
             <p>Destinations</p>
         </div>
+
+      
 
     </section>
 
@@ -439,7 +460,7 @@
                 </div>
                 <div class="blog_detail">
                     <h1>
-                        Globsl Market
+                        Global Market
                     </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aperiam architecto dolorem porro enim consequatur nulla eos, hic neque in ea exercitationem alias necessitatibus temporibus id sapiente quae doloremque mollitia!</p>
                     <button class="blog_btn">
@@ -469,7 +490,7 @@
                 </div>
                 <div class="blog_detail">
                     <h1>
-                        Camping in Dark
+                        Camping
                     </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aperiam architecto dolorem porro enim consequatur nulla eos, hic neque in ea exercitationem alias necessitatibus temporibus id sapiente quae doloremque mollitia!</p>
                     <button class="blog_btn">
@@ -481,7 +502,7 @@
     </section>
 
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="footer_container">
             <div class="footer_section">
                 <ul class="footer_list">
@@ -539,6 +560,61 @@
             </div>
         </div>
 
+    </footer> -->
+
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_section">
+                <p>The Bridge</p>
+                <ul class="footer_section_ul">
+                    <li>Home</li>
+                    <li>Places to explore</li>
+                    <li>Exclusive Packages</li>
+                    <li>Gallery</li>
+                    <li>Blog</li>
+                    <li>login</li>
+                </ul>
+            </div>
+            <div class="footer_section">
+                <p>Service Provided</p>
+                <ul class="footer_section_ul">
+                    <li>Hotel Booking</li>
+                    <li>Flight Booking</li>
+                    <li>Cab Booking</li>
+                    <li>Train Booking</li>
+                    <li>Nearby Getaways</li>
+                    <li>Go Stay</li>
+                </ul>
+            </div>
+            <div class="footer_section">
+                <p>Activities</p>
+                <ul class="footer_section_ul">
+                    <li>Mountain Hiking</li>
+                    <li>River Rafting</li>
+                    <li>Hot air balloon</li>
+                    <li>Scuba Diving</li>
+                </ul>
+            </div>
+            <div class="footer_section map"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.4469730604915!2d72.87217841394212!3d19.262919186980966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b151f2b9bc75%3A0x41a1c866558ba94f!2sThakur%20Mall!5e0!3m2!1sen!2sin!4v1642856385098!5m2!1sen!2sin" width="100%" height="300px" style="border:0;" ></iframe>
+            </div>
+
+        </div>
+        <div class="footer_back">
+            <div class="footer_back_logo">
+                
+                <p>The Bridge</p>
+                
+            </div>
+            <div class="footer_social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube-square"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </div>
+        </div>
     </footer>
 
    <script>
@@ -560,7 +636,7 @@
             document.getElementById("header").style.boxShadow="none"
            }
 
-        //    if(window.pageXOffset>118){
+        //    if(window.pageXOffset>48){
         //         document.getElementById("vid").play;
         //    }
         //    else{
